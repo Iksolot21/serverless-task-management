@@ -26,7 +26,7 @@ type authServer struct {
 }
 
 func (s *authServer) Register(ctx context.Context, req *pb.RegisterRequest) (*pb.RegisterResponse, error) {
-	res, err := service.RegisterUser(s.db, req)
+	res, err := service.RegisterUser(s.db, req) //здесь
 	if err != nil {
 		return nil, fmt.Errorf("failed to register user: %w", err)
 	}

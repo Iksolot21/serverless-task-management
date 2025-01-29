@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/Iksolot21/serverless-task-management/proto";
+
+service UserService {
+    rpc GetUser(GetUserRequest) returns (GetUserResponse);
+    rpc ListUsers(ListUsersRequest) returns (ListUsersResponse);
+}
+
+message GetUserRequest {
+    int32 id = 1;
+}
+
+message GetUserResponse {
+    int32 id = 1;
+    string username = 2;
+      string email = 3;
+       string createdAt = 4;
+}
+
+message ListUsersRequest {}
+
+message ListUsersResponse {
+    repeated GetUserResponse users = 1;
+}

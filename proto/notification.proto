@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package notification;
+package proto;
+
+option go_package = "github.com/Iksolot21/serverless-task-management/proto";
 
 service NotificationService {
     rpc SendNotification(SendNotificationRequest) returns (SendNotificationResponse);
