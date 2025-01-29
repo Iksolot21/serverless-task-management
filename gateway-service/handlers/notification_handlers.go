@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"your-repo/gateway-service/internal/errors"
-	"your-repo/gateway-service/pb"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/internal/errors"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/pb"
 
 	"google.golang.org/grpc"
 )

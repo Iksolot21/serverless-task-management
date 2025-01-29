@@ -9,11 +9,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"your-repo/auth-service/config"
-	"your-repo/auth-service/db"
-	"your-repo/auth-service/pb"
-	"your-repo/auth-service/service"
-	"your-repo/auth-service/utils"
+	"github.com/Iksolot21/serverless-task-management/auth-service/config"
+	"github.com/Iksolot21/serverless-task-management/auth-service/db"
+	"github.com/Iksolot21/serverless-task-management/auth-service/pb"
+	"github.com/Iksolot21/serverless-task-management/auth-service/service"
+	"github.com/Iksolot21/serverless-task-management/auth-service/utils"
 
 	_ "github.com/lib/pq"
 )

@@ -11,12 +11,12 @@ import (
 	"github.com/joho/godotenv"
 	"google.golang.org/grpc"
 
-	"your-repo/user-service/config"
-	"your-repo/user-service/db"
-	"your-repo/user-service/logger"
-	"your-repo/user-service/migrations"
-	"your-repo/user-service/pb"
-	"your-repo/user-service/service"
+	"github.com/Iksolot21/serverless-task-management/user-service/config"
+	"github.com/Iksolot21/serverless-task-management/user-service/db"
+	"github.com/Iksolot21/serverless-task-management/user-service/logger"
+	"github.com/Iksolot21/serverless-task-management/user-service/migrations"
+	"github.com/Iksolot21/serverless-task-management/user-service/pb"
+	"github.com/Iksolot21/serverless-task-management/user-service/service"
 )
 
 type userServer struct {

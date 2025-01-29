@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"your-repo/task-service/config"
-	"your-repo/task-service/db"
-	"your-repo/task-service/pb"
-	"your-repo/task-service/service"
+	"github.com/Iksolot21/serverless-task-management/task-service/config"
+	"github.com/Iksolot21/serverless-task-management/task-service/db"
+	"github.com/Iksolot21/serverless-task-management/task-service/pb"
+	"github.com/Iksolot21/serverless-task-management/task-service/service"
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"

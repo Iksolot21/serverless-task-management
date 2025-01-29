@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"your-repo/gateway-service/config"
-	"your-repo/gateway-service/internal/errors"
-	"your-repo/gateway-service/pb"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/config"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/internal/errors"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/pb"
 
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc"

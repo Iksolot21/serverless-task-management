@@ -8,8 +8,8 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
 
-	"your-repo/auth-service/internal/jwt"
-	"your-repo/auth-service/pb"
+	"github.com/Iksolot21/serverless-task-management/auth-service/internal/jwt"
+	"github.com/Iksolot21/serverless-task-management/auth-service/pb"
 )
 
 func RegisterUser(db *sql.DB, req *pb.RegisterRequest) (string, error) {

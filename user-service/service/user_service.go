@@ -4,7 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 	"time"
-	"your-repo/user-service/pb"
+
+	"github.com/Iksolot21/serverless-task-management/user-service/pb"
 )
 
 func GetUserById(db *sql.DB, req *pb.GetUserByIdRequest) (*pb.User, error) {

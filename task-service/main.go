@@ -11,12 +11,12 @@ import (
 	"github.com/joho/godotenv"
 	"google.golang.org/grpc"
 
-	"your-repo/task-service/config"
-	"your-repo/task-service/db"
-	"your-repo/task-service/logger"
-	"your-repo/task-service/migrations"
-	"your-repo/task-service/pb"
-	"your-repo/task-service/service"
+	"github.com/Iksolot21/serverless-task-management/task-service/config"
+	"github.com/Iksolot21/serverless-task-management/task-service/db"
+	"github.com/Iksolot21/serverless-task-management/task-service/logger"
+	"github.com/Iksolot21/serverless-task-management/task-service/migrations"
+	"github.com/Iksolot21/serverless-task-management/task-service/pb"
+	"github.com/Iksolot21/serverless-task-management/task-service/service"
 )
 
 type taskServer struct {

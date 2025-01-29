@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"testing"
 	"time"
-	"your-repo/user-service/config"
-	"your-repo/user-service/db"
-	"your-repo/user-service/pb"
-	"your-repo/user-service/service"
+
+	"github.com/Iksolot21/serverless-task-management/user-service/config"
+	"github.com/Iksolot21/serverless-task-management/user-service/db"
+	"github.com/Iksolot21/serverless-task-management/user-service/pb"
+	"github.com/Iksolot21/serverless-task-management/user-service/service"
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"

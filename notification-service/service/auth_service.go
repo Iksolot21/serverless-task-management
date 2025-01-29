@@ -4,7 +4,8 @@ import (
 	"context"
 	"fmt"
 	"net/smtp"
-	"your-repo/notification-service/pb"
+
+	"github.com/Iksolot21/serverless-task-management/notification-service/pb"
 )
 
 type EmailSender interface {

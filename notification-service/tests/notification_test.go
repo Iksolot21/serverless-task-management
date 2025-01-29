@@ -9,9 +9,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"your-repo/notification-service/config"
-	"your-repo/notification-service/pb"
-	"your-repo/notification-service/service"
+	"github.com/Iksolot21/serverless-task-management/notification-service/config"
+	"github.com/Iksolot21/serverless-task-management/notification-service/pb"
+	"github.com/Iksolot21/serverless-task-management/notification-service/service"
 )
 
 type MockEmailSender struct {

@@ -7,9 +7,10 @@ import (
 	"net/http/httptest"
 	"strings"
 	"testing"
-	"your-repo/gateway-service/config"
-	"your-repo/gateway-service/handlers"
-	"your-repo/gateway-service/pb"
+
+	"github.com/Iksolot21/serverless-task-management/gateway-service/config"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/handlers"
+	"github.com/Iksolot21/serverless-task-management/gateway-service/pb"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"

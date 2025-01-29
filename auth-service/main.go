@@ -11,12 +11,12 @@ import (
 	"github.com/joho/godotenv"
 	"google.golang.org/grpc"
 
-	"your-repo/auth-service/config"
-	"your-repo/auth-service/db"
-	"your-repo/auth-service/logger"
-	"your-repo/auth-service/migrations"
-	"your-repo/auth-service/pb"
-	"your-repo/auth-service/service"
+	"github.com/Iksolot21/serverless-task-management/auth-service/config"
+	"github.com/Iksolot21/serverless-task-management/auth-service/db"
+	"github.com/Iksolot21/serverless-task-management/auth-service/logger"
+	"github.com/Iksolot21/serverless-task-management/auth-service/migrations"
+	"github.com/Iksolot21/serverless-task-management/auth-service/pb"
+	"github.com/Iksolot21/serverless-task-management/auth-service/service"
 )
 
 type authServer struct {
